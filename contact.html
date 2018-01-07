@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Gabriel Hercules - Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/logo-provisorio.png" type="image/x-png"/>
+	<meta name="description" content="Gabriel Hercules Portfolio.">
+	<meta name="keywords" content="Gabriel Hercules, Portfolio, 3D Artist, Character Artist">
+	<meta name="author" content="Gabriel Hercules">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+<!-- MENU NAV -->
+<header class="header">
+		<a href="index.html"><img src="images/letter-g.png" alt="" class="img-logo"></a>
+		<a class="btn-menu"><img src="images/menu-icons/btn-menu.png"></a>
+		<nav class="menu">
+			<div class="close">
+			<a class="btn-close" href="#"><img src="images/menu-icons/btn-close.png" alt=""></a>
+			</div>
+			<ul>
+				<li><a href="index.html" class="menu-link">Portfolio</a></li>
+				<li><a href="reel.html" class="menu-link">Demo Reel</a></li>
+				<li><a href="webdesign.html" class="menu-link">Web Design</a></li>
+				<li><a href="resume.html" class="menu-link">Resume</a></li>
+				<li><a href="contact.html" class="menu-link">Contact</a></li>
+			</ul>
+		</nav>	
+	</header>
+<!-- MENU NAV -->
+
+<!-- FORMULÁRIO -->
+<div class="form">
+	<h1>Let's Talk!</h1>
+	<div class="form-box">
+		<div class="input-area">
+			<p>Name</p>
+			<input type="text" name="" class="input">
+		</div>
+		<div class="input-area">
+			<p>Email</p>
+			<input type="text" name="" class="input">
+		</div>
+		<div class="input-area">
+			<p>Affair</p>
+			<input type="text" name="" class="input">
+		</div>
+		<div class="input-area">
+			<p>Message</p>
+			<textarea class="input-text-area"></textarea>
+		</div>
+	</div>
+	<div class="input-button">
+		<input type="submit" value="Send" class="button">
+	</div>
+</div>
+<!-- FORMULÁRIO -->
+
+<!-- INFORMAÇÕES DE CONTATO -->
+<div class="contact-info">	
+	<div class="email-title">
+		<h2>Email-me</h2>
+		<img src="images/another-icons/mail.png">
+	</div>
+	<div class="email-info">
+		<p>gabrielart.hercules@hotmail.com</p>
+	</div>
+</div>
+<!-- INFORMAÇÕES DE CONTATO -->
+
+<!-- DISCORD CONTACT -->
+<div class="discord">
+	<div class="discord-top">
+		<h2>Let's talk on Discord</h2>
+		<img src="images/discord/Discord-Logo-White.svg">
+	</div>
+	<p>Want to talk to me more informaly? Let's speak in a voice chat on Discord!</p>
+	<div class="my-discord">
+		<h2>My profile</h2>
+		<p>Gabriel Hercules#4337</p>
+	</div>
+</div>
+<!-- DISCORD CONTACT -->
+
+<!-- FOOTER -->
+<footer>
+	<div class="social-footer">
+		<div class="social-icons-footer">
+			<a href="http://artstation.com/hercules-art" target="_blank"><img src="images/social-icons/artstation-icon.svg"></a>
+		</div>
+		<div class="social-icons-footer">
+			<a href="https://www.facebook.com/GHerculesArt" target="_blank"><img src="images/social-icons/facebook-icon.svg"></a>
+		</div>
+		<div class="social-icons-footer">
+			<a href="http://linkedin.com/" target="_blank"><img src="images/social-icons/linkedin-icon.svg"></a>
+		</div>
+		<div class="social-icons-footer">
+			<a href="http://twitter.com/Gabe7Hercules" target="_blank"><img src="images/social-icons/twitter-icon.svg"></a>
+		</div>
+		<div class="social-icons-footer">
+			<a href="http://instagram.com/bagriel_hercules" target="_blank"><img src="images/social-icons/instagram-icon.svg"></a>
+		</div>
+	</div>
+
+<!-- SCROLL TO TOP -->
+<a href="#" class="scrolltoTop">
+	<h1>Back To Top</h1>
+</a>
+	<!-- SCROLL TO TOP -->
+
+	<p>Copyright &copy; 2018 - All rights reserved</p>
+</footer>
+<!-- FOOTER -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+// SCROLL TO TOP
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrolltoTop').fadeIn();
+        } else {
+            $('.scrolltoTop').fadeOut();
+       }
+    });
+
+	$('.scrolltoTop').click(function () {
+$('html, body').animate({ scrollTop: 0 }, 800);
+return false;
+});
+});
+//SCROLL TO TOP
+
+// OPEN AND CLOSE MENU
+	$(".btn-menu").click(function(){
+		$(".menu").show();
+	});
+	$(".btn-close").click(function(){
+		$(".menu").hide();
+	});
+// OPEN AND CLOSE MENU
+
+// SCRIPT TEXTBOX EFFECT
+
+$(".input").focus(function(){
+	$(this).parent().addClass("focus");
+	}).blur(function(){
+		if($(this).val() === ''){
+		$(this).parent().removeClass("focus");
+	}
+})
+
+// SCRIPT TEXT BOX EFFECT
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

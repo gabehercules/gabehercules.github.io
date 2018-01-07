@@ -1,0 +1,193 @@
+/*========= RESET =========*/
+@charset "UTF-8";
+
+* {margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;}
+body {background-color: #323232; }
+a {text-decoration: none; }
+ul {list-style: none; }
+img {max-width: 100%; }
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* FONT FACES */
+@font-face {
+	font-family: RobotoSlab-Bold;
+	src: url(../fonts/Roboto_Slab/RobotoSlab-Bold.ttf);
+}
+@font-face {
+	font-family: RobotoSlab-Light;
+	src: url(../fonts/Roboto_Slab/RobotoSlab-Light.ttf);
+}
+@font-face {
+	font-family: RobotoSlab-Regular;
+	src: url(../fonts/Roboto_Slab/RobotoSlab-Regular.ttf);
+}
+@font-face {
+	font-family: RobotoSlab-Thin;
+	src: url(../fonts/Roboto_Slab/RobotoSlab-Thin.ttf);
+}
+/* FONT FACES */
+
+
+/* HEADER */
+.header {
+	height: 100px;
+	width: 100%;
+	background-color: coral;
+	float: left;
+	/* position: fixed; */
+}
+
+header .img-logo {
+	padding: 15px 15px;
+	background-color: rgba(30,200,70,.4)
+}
+
+.btn-menu {
+	background-color: transparent;
+	float: right;
+	cursor: pointer;
+	padding: 15px 15px; /* Definir o mesmo espaçamento para o btn-close */
+}
+
+/* HEADER */
+
+/* MENU */
+
+.menu {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(255,255,255,.9);
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.btn-close {
+	background-color: aqua;
+	padding: 15px 15px;
+	display: flex;
+	flex-flow: row-reverse nowrap;
+}
+
+nav ul li, a.menu-link {
+	font-size: 2.5rem;
+	text-align: center;
+	color: #323232;
+	margin: 20px 0;
+	font-family: RobotoSlab-Bold;
+}
+
+/* MENU */
+
+/* typewritter */
+
+#typewriter {
+	width: 100%;
+	height: 230px;
+	background-image: url(../images/);
+	background-repeat: no-repeat;
+	background-size: 135%;
+	background-position: center;
+	font-size: 1.8rem;
+	font-family: RobotoSlab-Regular;
+	color: #fff;
+	text-align: center;
+	padding-top:130px
+}
+
+/* typewritter */
+
+/* BANNER */
+.banner {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 3% 4%;
+	background-color: #111;
+}
+
+.banner h1 {
+	font-size: 2em;
+	color: #fff;
+	font-family: RobotoSlab-Bold;
+}
+
+.banner p {
+	font-size: 1.5em;
+	color: #fff;
+	font-family: RobotoSlab-Thin;
+}
+
+/* PROJECTS */
+.gallery {
+	margin: 0;
+	padding: 0;
+	background-color: #111;
+}
+.project {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+/* FOOTER */
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #323232;
+}
+
+footer p {
+	font-size: 1em;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	margin: 10px auto 0 auto;
+	font-family: RobotoSlab-Thin;
+}
+
+/* BOTÃO BACK TO TOP */
+.scrolltoTop, a {
+	text-align: center;
+	color: #f0f0f0;
+	font-size: 1rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* BOTÃO BACK TO TOP */
+
+.social-footer {
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+	text-align: center;
+}
+.social-icons-footer {
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	margin: 0 15px; /* Defini o espaçamento dos itens "social media"*/
+}
+
+.social-icons-footer img {
+	display: block;
+	margin: 0 auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

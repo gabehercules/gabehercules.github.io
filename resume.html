@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Gabriel Hercules - Resume</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/logo-provisorio.png" type="image/x-png"/>
+	<meta name="description" content="Gabriel Hercules Portfolio.">
+	<meta name="keywords" content="Gabriel Hercules, Portfolio, 3D Artist, Character Artist">
+	<meta name="author" content="Gabriel Hercules">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/resume.css">
+	<script src="https://use.fontawesome.com/a71510d4a4.js"></script>
+</head>
+<body>
+
+<!-- NAV MENU -->
+<header class="header">
+		<a href="index.html"><img src="images/letter-g.png" alt="" class="img-logo"></a>
+		<a class="btn-menu"><img src="images/menu-icons/btn-menu.png"></a>
+		<nav class="menu">
+			<div class="close">
+			<a class="btn-close" href="#"><img src="images/menu-icons/btn-close.png" alt=""></a>
+			</div>
+			<ul>
+				<li><a href="index.html" class="menu-link">Portfolio</a></li>
+				<li><a href="reel.html" class="menu-link">Demo Reel</a></li>
+				<li><a href="webdesign.html" class="menu-link">Web Design</a></li>
+				<li><a href="resume.html" class="menu-link">Resume</a></li>
+				<li><a href="contact.html" class="menu-link">Contact</a></li>
+			</ul>
+		</nav>	
+	</header>
+<!-- NAV MENU -->
+
+<!-- RESUME INFO -->
+<div class="about-me">
+	<div class="img-ft">
+		<a href="http://facebook.com/Gabriel7Hercules"><img src="images/ft-perfil.jpg" class="ft-perfil"></a>
+		<h1>Gabriel Hercules</h1>
+		<p>Character Artist Student<br>Jundiaí, Brazil</p>
+	</div>
+	<div class="resume">
+		<p>My name is Gabriel Hercules, I was born in Jundiaí-SP, in Brazil, I'm 3D character artist student, currently studing human anatomy and character design with the greatest masters, _________ and ________. I'm graduate in Game Design in a school of languages and design, and IT in a technical school in my city. My goal and dream is work on an AAA game studio as a 3D Character Artist or another equivalent 3d modeler position.</p>
+	</div>
+</div>
+<!-- RESUME INFO -->
+
+<!-- SOFTWARES -->
+<div class="software-proficiency">
+	<h1>Software Proficiency</h1>
+	<div class="software-icon">
+		<img src="images/software-icons/zbrush-icon.jpg" class="icon">
+		<img src="images/software-icons/3dsmax-icon.png" class="icon">
+		<img src="images/software-icons/unity-icon.png" class="icon">
+		<img src="images/software-icons/unreal-icon.png" class="icon">
+		<img src="images/software-icons/photoshop-icon.png" class="icon">
+		<img src="images/software-icons/illustrator-icon.jpg" class="icon">
+	</div>
+</div>
+<!-- SOFTWARES -->
+
+<!-- SKILLS -->
+<!-- Prepara icones para cada um dos itens de lista a baixo. Ex.: Weapon Modeling = arma/espada; Character Modeling = busto de uma pessoa; etc. -->
+<div class="skills">
+	<div class="skill-title">
+		<h1>Skills</h1>
+	</div>
+		<div class="skill weapon">
+			<img src="images/skill-icons/crossy-swords.png">
+			<ul>Weapon Modeling</ul>
+		</div>
+		<div class="skill character">
+			<img src="images/skill-icons/character.png">
+			<ul>Character Sculpting</ul>
+		</div>
+		<div class="skill prop">
+			<img src="images/skill-icons/barrel.png">
+			<ul>Prop Modeling</ul>
+		</div>
+		<div class="skill creature">
+			<img src="images/skill-icons/frankenstein.png">
+			<ul>Creature Sculpting</ul>
+		</div>
+		<div class="skill draw">
+			<img src="images/skill-icons/pencil.png">
+			<ul>Hand Drawing</ul>
+		</div>
+		<div class="skill texturing">
+			<img src="images/skill-icons/texture.png">
+			<ul>Texturing</ul>
+		</div>
+</div>
+<!-- SKILLS -->
+
+
+<!-- FOOTER -->	
+<footer>
+	<div class="social-footer">
+		<div class="social-icons-footer">
+			<a href="http://artstation.com/hercules-art" target="_blank"><img src="images/social-icons/artstation-icon.svg"></a>
+		</div>
+		<div class="social-icons-footer">
+			<a href="https://www.facebook.com/GHerculesArt" target="_blank"><img src="images/social-icons/facebook-icon.svg"></a>
+		</div>
+		<div class="social-icons-footer">
+			<a href="http://linkedin.com/" target="_blank"><img src="images/social-icons/linkedin-icon.svg"></a>
+		</div>
+		<div class="social-icons-footer">
+			<a href="http://twitter.com/Gabe7Hercules" target="_blank"><img src="images/social-icons/twitter-icon.svg"></a>
+		</div>
+		<div class="social-icons-footer">
+			<a href="http://instagram.com/bagriel_hercules" target="_blank"><img src="images/social-icons/instagram-icon.svg"></a>
+		</div>
+	</div>
+
+<!-- SCROLL TO TOP -->
+<a href="#" class="scrolltoTop">
+	<h1 id="imgTop">Back To Top</h1>
+</a>
+	<!-- SCROLL TO TOP -->
+
+	<p>&copy; 2018 - All rights reserved</p>
+</footer>
+<!-- FOOTER -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+// SCROLL TO TOP
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrolltoTop').fadeIn();
+        } else {
+            $('.scrolltoTop').fadeOut();
+       }
+    });
+
+	$('.scrolltoTop').click(function () {
+$('html, body').animate({ scrollTop: 0 }, 800);
+return false;
+});
+});
+//SCROLL TO TOP
+
+// OPEN AND CLOSE MENU
+	$(".btn-menu").click(function(){
+		$(".menu").show();
+	});
+	$(".btn-close").click(function(){
+		$(".menu").hide();
+	});
+// OPEN AND CLOSE MENU
+</script>
+
+</body>
+</html>

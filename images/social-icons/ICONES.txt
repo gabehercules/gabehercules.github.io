@@ -1,0 +1,1 @@
+O tamanho idea dos icones tem que ser de preferencia em svg, para nao perder a qualidade
