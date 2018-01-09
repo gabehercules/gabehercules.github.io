@@ -103,7 +103,7 @@ nav ul li, a.menu-link {
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding: 3% 4%;
+	padding: 30px;
 	background-color: #111;
 }
 
@@ -120,16 +120,36 @@ nav ul li, a.menu-link {
 }
 
 /* PROJECTS */
+
 .gallery {
-	margin: 0;
-	padding: 0;
-	background-color: #111;
-}
-.project {
-	width: 90%;
-	margin: 0 auto;
+	width: 100%;
+	background-color: crimson;
 }
 
+.projects {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: auto;
+}
+
+/* PROJECT GALLERY FOR DESKTOPS */
+@media screen and (max-width: 1440px) {
+	
+
+	.projects img {
+		padding: 20px;
+		max-height: 300px;
+		max-width: 300px;
+		box-sizing: border-box;
+	}
+}
+
+
+/* PROJECT GALLERY FOR DESKTOPS */
+
+/* PROJECT */
 
 
 /* FOOTER */
