@@ -92,6 +92,6 @@ window.onload = function() {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #f7f7f7; color:aqua}"; // MUDA COR DO DATA TYPE
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #f7f7f7; color:#f0f0f0}"; // MUDA COR DO DATA TYPE
     document.body.appendChild(css);
 };

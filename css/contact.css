@@ -16,13 +16,13 @@ img {max-width: 100%; }
 
 .form {
 	width: 100%;
-	background-color: #111;
+	background-color: #323232;
 }
 
 .form h1 {
 	text-align: center;
 	font-size: 2em;
-	font-family: 'Arial', sans-serif;
+	font-family: RobotoSlab-Bold;
 	font-weight: 600;
 	color: #f0f0f0;
 	line-height: 80px;
@@ -34,7 +34,7 @@ h2 {
 
 .form p{
 	margin: 50px 0 10px 20px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: RobotoSlab-Regular;
 	color: #f0f0f0;
 	font-size: 1.2em;
 }
@@ -49,7 +49,7 @@ h2 {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 0 auto 50px;
-	background-color: #111;
+	background-color: transparent;
 	color: #f0f0f0;
 	padding: 5px;
 }
@@ -65,7 +65,7 @@ h2 {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 0 auto 50px;
-	background-color: #111;
+	background-color: transparent;
 	color: #f0f0f0;
 	overflow: auto;
 	resize: none;
@@ -86,18 +86,18 @@ h2 {
 	margin: auto;
 	border-radius: 30px;
 	border: 1px solid rgba(255, 255, 255, 0.365);
-	background-color: #111;
+	background-color: transparent;
 	color: #f0f0f0;
-	font-family: 'Arial', sans-serif;
+	font-family: RobotoSlab-Regular;
 	font-size: 1.2em;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 .button:hover {
 	cursor: pointer;
-	color: #111;
-	transition: .7s;
-	background-color: #00edb9;
+	color: #323232;
+	transition: all .7s ease;
+	background: linear-gradient(to right, #00ff7f, #3cb371);
 }
 
 /* FORM */

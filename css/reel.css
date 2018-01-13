@@ -1,13 +1,13 @@
 .main {
-    height: 580px;
+    height: 1450px;
     width: 100%;
-    background-color: aqua;
+    background-color: #f0f0f0;
 }
 
 .container-reel {
     height: 200px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #f0f0f0;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -15,7 +15,10 @@
 
 .container-reel h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-family: RobotoSlab-Regular;
+    color: #323232;
+    font-weight: 600;
 }
 
 
